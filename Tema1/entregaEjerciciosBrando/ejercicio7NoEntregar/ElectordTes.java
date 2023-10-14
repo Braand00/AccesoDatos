@@ -18,9 +18,13 @@ public class ElectordTes {
             double consumoAnual = electrodomestico.consumoAnual();
              System.out.println("Consumo anual del electrodoméstico en la posición " + i + ": " + consumoAnual + " euros");
             totalConsumoAnual += consumoAnual;
+            }
+            System.out.println("Suma total del consumo anual de todos los electrodomésticos: " + totalConsumoAnual + " euros");
+            
+            // Recorrer el ArrayList y mostrar las marcas de cada electrodoméstico
+            for (Electrodomestico electrodomestico : listaElectrodomestico) {
+            System.out.println("Marca del electrodoméstico: " + electrodomestico.getMarca());
 }
-    System.out.println("Suma total del consumo anual de todos los electrodomésticos: " + totalConsumoAnual + " euros");
-
         } catch (Exception e) {
           
         }
