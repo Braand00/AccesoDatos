@@ -1,4 +1,4 @@
-package entregaEjerciciosBrando.ejercicio5NoEntregar;
+package entregaEjerciciosBrando.ejercicio6NoEntregar;
 
 import java.util.Arrays;
 import java.util.Random;
